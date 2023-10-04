@@ -21,15 +21,17 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
+            "value": "6423217099:AAEuy23XXB0ZNMcMzE6uRpyTL8GF0SEYJ6Y",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "19483354",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "required": true
+            "value": "4b53dc0d355af83ffbf8a2b5c89139fd",
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
@@ -37,22 +39,27 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "1028800950",
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+            "value": "https://graph.org/file/5523020a89f2e0e239408.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "-1001828356211",
             "required": true
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
+            "value": "1028800950",
             "required": false
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "-1001968535015",
             "required": false
         },
         "DATABASE_URI": {
@@ -61,6 +68,7 @@
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
+            "value": "mongodb+srv://AdDeveloper:AdDeveloper@addeveloper.9s2pzg1.mongodb.net/?retryWrites=true&w=majority",
             "required": false
         },
         "COLLECTION_NAME": {
@@ -75,8 +83,7 @@
     }],
     "formation": {
         "worker": {
-            "quantity": 1,
-            "size": "free"
+            "quantity": 1
         }
     }
 }
