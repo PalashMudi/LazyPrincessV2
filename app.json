@@ -31,7 +31,7 @@
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "4b53dc0d355af83ffbf8a2b5c89139fd",
+            "value": "4b53dc0d355af83ffbf8a2b5c89139fd"
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
@@ -80,12 +80,5 @@
     "addons": [],
     "buildpacks": [{
         "url": "heroku/python"
-    }],
-    
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
+    }]
 }
